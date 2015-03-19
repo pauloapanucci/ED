@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 float fat(int n){
 	if(n==1 || n==1) return n;
 	else return n*fat(n-1);
