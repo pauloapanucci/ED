@@ -67,7 +67,7 @@ void ex3(){
  }
  void ex4(){
  	int k, l, mes_maior, mes_menor; 
- 	float temp[12], min, max; // min e max armazenam a menor e a maior temperatura
+ 	float temp[12], min, max; 
  	for(k=0; k<12; k++){
 		printf("Digite, em graus celsius, a temperatura do mes %i: ", k+1); scanf("%f", &temp[k]);
 	}
